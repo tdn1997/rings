@@ -2,8 +2,7 @@ import { observable, IObservableArray, action } from 'mobx'
 
 class Store {
   @observable data: IObservableArray<any> = observable<any>([])
-  @observable clicked: boolean = false
-
+  
   constructor(){
     const defaultData = [
       {

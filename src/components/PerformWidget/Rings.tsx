@@ -35,9 +35,9 @@ export default class Rings extends Component<IProps, {}> {
               innerSize: 230,
               size: 280,
               data: [props.data[0].value, 100 - props.data[0].value],
-              colors: ["#007820", "#383838"],
+              colors: ["#007820", "#303030"],
               borderWidth: 0,
-              startAngle: 45,
+              startAngle: 315,
               states: {
                 inactive: {
                   opacity: 1
@@ -49,9 +49,9 @@ export default class Rings extends Component<IProps, {}> {
               innerSize: 170,
               size: 220,
               data: [props.data[1].value, 100 - props.data[1].value],
-              colors: ["#199139", "#383838"],
+              colors: ["#199139", "#494949"],
               borderWidth: 0,
-              startAngle: 135,
+              startAngle: 45,
               states: {
                 inactive: {
                   opacity: 1
@@ -63,7 +63,7 @@ export default class Rings extends Component<IProps, {}> {
               innerSize: 110,
               size: 160,
               data: [props.data[2].value, 100 - props.data[2].value],
-              colors: ["#32aa52", "#383838"],
+              colors: ["#32aa52", "#626262"],
               borderWidth: 0,
               startAngle: 225,
               states: {
@@ -77,9 +77,9 @@ export default class Rings extends Component<IProps, {}> {
               innerSize: 50,
               size: 100,
               data: [props.data[3].value, 100 - props.data[3].value],
-              colors: ["#4bc36b", "#383838"],
+              colors: ["#4bc36b", "#7b7b7b"],
               borderWidth: 0,
-              startAngle: 315,
+              startAngle: 135,
               states: {
                 inactive: {
                   opacity: 1
